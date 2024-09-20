@@ -9,8 +9,9 @@ Every year, Stack Overflow conducts a massive survey of people on the site, cove
 ## Data
 The data is made up of two files:
 
-* survey_results_public.csv - CSV file with main survey results, one respondent per row and one column per answer
-* survey_results_schema.csv - CSV file with survey schema, i.e., the questions that correspond to each column name
+* survey-results-public.csv - CSV file with main survey results, one respondent per row and one column per answer
+* survey-results-schema.csv - CSV file with survey schema, i.e., the questions that correspond to each column name
+* survey-results-schema.xlsx - Excel verion of the schema file above with some additional useful data annotations
 
 ## Acknowledgements
 Data is taken from StackOverflow and licensed under the ODbL license.
@@ -26,7 +27,7 @@ Data is taken from StackOverflow and licensed under the ODbL license.
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
 
 ## Project Motivation<a name="motivation"></a>
 
