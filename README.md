@@ -1,27 +1,13 @@
-# DS-BlogPost
-#Data Science - BlogPost
-
-This is a GITHUB Repository **just for educational purposes.** All data is freely available on https://www.kaggle.com/datasets/stackoverflow/so-survey-2017.
-
-# About Dataset
-Every year, Stack Overflow conducts a massive survey of people on the site, covering all sorts of information like programming languages, salary, code style and various other information. This year, they amassed more than 64,000 responses fielded from 213 countries.
-
-## Data
-The data is made up of two files:
-
-* survey-results-public.csv - CSV file with main survey results, one respondent per row and one column per answer
-* survey-results-schema.csv - CSV file with survey schema, i.e., the questions that correspond to each column name
-* survey-results-schema.xlsx - Excel verion of the schema file above with some additional useful data annotations
-
-## Acknowledgements
-Data is taken from StackOverflow and licensed under the ODbL license.
+# Data Science - BlogPost
 
 
-### Table of Contents
+This is a GITHUB Repository **just for educational purposes.** All data used is freely available on https://www.kaggle.com/datasets/stackoverflow/so-survey-2017.
+
+## Table of Contents
 
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
+3. [Data](#data)
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
@@ -31,28 +17,25 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
+Based on the Stack Overflow Survey 2017 (https://www.kaggle.com/datasets/stackoverflow/so-survey-2017/code?datasetId=1406&searchQuery=udacity) which allows a brief "look into the lives of over 64,000 Stack Overflow developers" I want to analyze the following topics:
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
+(1) What are the most commonly mentioned languages that participants have already worked with and want to work with? Is there a intention to other languages visible?
+(2) Have Worked Language vs. Salary: What is the statistical relation of the mentioned languages the respondents have worked with and their salary? Does the language statistically have influence on the income and if yes, what kind of influence?
+(3) Developer Type vs. Salary: What is the statistical relation of the mentioned developer type to income. Which types of developer have higher incomes, which have lower incomes?
 
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
+# About Dataset
+Every year, Stack Overflow conducts a massive survey of people on the site, covering all sorts of information like programming languages, salary, code style and various other information. This year, they amassed more than 64,000 responses fielded from 213 countries.
 
+## Data <a name="data"></a>
+The data is made up of three files:
 
-## File Descriptions <a name="files"></a>
-
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
-
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+* survey-results-public.csv - CSV file with main survey results, one respondent per row and one column per answer
+* survey-results-schema.csv - CSV file with survey schema, i.e., the questions that correspond to each column name
+* survey-results-schema.xlsx - Helper file: Excel version of the schema file above with some additional useful data annotations
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+My main findings can be found [here](https://xxx).
 
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
-
+## Acknowledgements
+Data is taken from StackOverflow. You can find more information regarding the data at [Kaggle](https://www.kaggle.com/stackoverflow/so-survey-2017)
