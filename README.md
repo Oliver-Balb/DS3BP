@@ -13,14 +13,16 @@ This is a GITHUB Repository **just for educational purposes.** All data used is 
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.
 
 ## Project Motivation<a name="motivation"></a>
 
 Based on the Stack Overflow Survey 2017 (https://www.kaggle.com/datasets/stackoverflow/so-survey-2017/code?datasetId=1406&searchQuery=udacity) which allows a brief "look into the lives of over 64,000 Stack Overflow developers" I want to analyze the following topics:
 
 (1) What are the most mentioned languages that participants have already worked with and want to work with? Is there an intention to move to other languages visible?
+
 (2) Have Worked Language vs. Salary: What is the statistical relation of the mentioned languages the respondents have worked with and their salary? Does the language statistically have influence on the income and if yes, what kind of influence?
+
 (3) Developer Type vs. Salary: What is the statistical relation of the mentioned developer type to income. Which types of developer have higher incomes, which have lower incomes?
 
 ## About Dataset
